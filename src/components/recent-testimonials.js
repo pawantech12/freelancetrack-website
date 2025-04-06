@@ -22,7 +22,7 @@ export function RecentTestimonials({ recentTestimonials }) {
               </div>
             </div>
             <p className="text-sm text-muted-foreground">
-              "{testimonial.review}"
+              &quot;{testimonial.review}&quot;
             </p>
             <div className="text-xs text-muted-foreground">
               Project: {testimonial.projectName} •
