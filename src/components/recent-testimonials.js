@@ -25,7 +25,7 @@ export function RecentTestimonials({ recentTestimonials }) {
               "{testimonial.review}"
             </p>
             <div className="text-xs text-muted-foreground">
-              Project: {testimonial.projectName} •{" "}
+              Project: {testimonial.projectName} •
               {new Date(testimonial.date).toLocaleDateString()}
             </div>
           </div>

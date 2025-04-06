@@ -126,7 +126,7 @@ export function TestimonialsGrid({ testimonials }) {
 
               <div className="space-y-4">
                 <p className="text-sm text-muted-foreground italic">
-                  "{testimonial.review}"
+                  &quot;{testimonial.review}&quot;
                 </p>
 
                 <div>
@@ -136,7 +136,7 @@ export function TestimonialsGrid({ testimonials }) {
             </CardContent>
             <CardFooter className="bg-muted/50 px-6 py-3 mt-0">
               <div className="text-xs text-muted-foreground">
-                Project: {testimonial.projectName} •{" "}
+                Project: {testimonial.projectName} •
                 {new Date(testimonial.date).toLocaleDateString()}
               </div>
             </CardFooter>
